@@ -1,0 +1,21 @@
+aside.menu-area {
+    background-color: var(--bg-dark);
+    box-shadow: 
+    2px 0 10px 0 rgba(0, 0, 0, 0.12),
+    2px 0 10px 0 rgba(0, 0, 0, 0.09);
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    font-weight: 300;
+
+}
+
+.menu a:hover {
+    background: #DA22FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
